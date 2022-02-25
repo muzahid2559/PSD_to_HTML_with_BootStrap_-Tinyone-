@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+@font-face{
+    font-family: 'PT Sans', sans-serif;
+}
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* menu part css start  */
+header{
+    background-color: #fcdb00;
+    padding: 10px 0px;
+}
+.menu ul li{
+    padding:0 20px;
+}
+.menu ul li a{
+    font-weight: 700;
+    font-size: 22px;
+    color: #010101 !important; 
+}
+.menu ul li a:hover{
+    color: #ffff!important; 
+}
+/* menu part css end */
+/* slider/banner part css start */
+#banner-part{
+    background-color:#fcdb00;
+    padding: 60px 0 80px 0;
+}
+.inspire{
+    color: #010101;
+    margin-top: 60px;
+    padding-left: 20px;
+}
+.inspire ul li .icon{
+    font-size: 50px;
+    padding: 0 10px;
+}
+.inspire h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.inspire h3{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.tab img{
+    padding-left: 90px;
+}
+.cid{
+    bottom:-70px;
+}
+.carousel-indicators [data-bs-target] {
+	width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius:50%;
+    background-color: #feed80;
+    transition: 0.4s;
+}
+.carousel-indicators [data-bs-target]:hover{
+    background-color: #010101;
+}
+.carousel-indicators .active {
+	opacity: 1;
+    background-color: #010101;
+}
+/* slider/banner part css end */
+
+/* Features part css start */
+#Features{
+    padding: 60px 0 80px 0;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #010101;
+}
+.title p{
+    font-size: 20px;
+    
+    }
+.icon-content h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+.icon-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 80px;
+}
+
+.features .icon {
+    font-size: 50px;
+    color: #010101;
+}
+/* Features part css end */
+/* contact part css start */
+#contact{
+    padding: 60px 0 80px 0;
+    background-color: #010101;
+}
+.contact-input input{
+    padding: 10px 15px;
+    color: #898989;
+    margin-left: 30px;
+}
+.contact-button button.btn-custom{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #010101;
+    background-color: #fcdb00;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.social ul li .icon{
+    font-size: 50px;
+    color: #fcdb00;
+    padding-right: 10px;
+}
+/* contact part css end */
+/* footer part css start */
+#footer{
+    padding: 60px 0 80px 0;
+    background-color: #010101;
+    color: #ffff;
+}
+.menu-footer ul li a{
+    color: #ffff !important;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.menu-footer ul li a:hover{
+    color:#fcdb00 !important;
+}
+/* footer part css end */

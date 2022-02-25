@@ -1,0 +1,200 @@
+/* X-Small devices (portrait phones, less than 576px)  */
+@media (max-width: 575.98px){
+/* menu part start */
+.menu ul li {
+    text-align: center;
+    background-color:#010101;
+}
+.menu ul li a {
+    color: #fcdb00 !important;
+}
+#banner-part {
+	padding: 0px 0 80px 0;
+}
+/* menu part end */  
+/* slider/banner part start */ 
+.inspire{
+    margin-top: 40px;
+}
+.inspire ul li .icon {
+    font-size: 30px;
+    padding-left: 70px;
+}
+.inspire h1 {
+	text-align: center;
+}
+.inspire h3 {
+	text-align: center;
+}
+.inspire p{
+	text-align: center;
+}
+.tab img {
+	display: none;
+}
+
+/* Features part start */
+#Features {
+	padding: 40px 0 0 0;
+}
+.title h1 {
+	font-size: 32px;
+}
+.title p {
+	font-size: 18px;
+}
+.features-item{
+text-align: center;
+}
+/* Features part end */
+/* contact part start */
+#contact {
+	padding: 60px 0 0px 0;
+}
+.contact-input input {
+	margin-left: 0px;
+    padding: 5px 0;
+}
+.contact-button{
+    text-align: center;
+    padding:5px 0;
+    margin: 15px 0 30px 0;
+}
+.social ul li .icon {
+    font-size: 30px;
+}
+/* contact part end */
+/* footer part start */
+address {
+	text-align: center;
+    padding-bottom: 20px;
+}
+#footer{
+    padding: 60px 0 30px 0;
+}
+.menu-footer{
+    padding-bottom: 20px;
+    text-align: center;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /* menu part start */
+.menu ul li {
+    text-align: center;
+    background-color:#010101;
+}
+.menu ul li a {
+    color: #fcdb00 !important;
+}
+/* menu part end */
+/* slider/banner part start */
+.inspire {
+    margin-top: 25px;
+}
+.inspire h1 {
+	font-size: 27px;
+}
+.inspire h3 {
+	font-size: 18px;
+}
+.inspire ul li .icon {
+    font-size: 30px;
+}
+.tab img {
+    padding-left: 0px;
+}
+/* slider/banner part end */
+/* Features part start */
+.title h1 {
+    font-size: 30px;
+}
+.title p {
+	font-size: 18px;
+}
+#Features {
+	padding: 60px 0 0px 0;
+}
+.features .icon {
+	font-size: 40px;
+}
+/* Features part end */
+/* contact part start */
+#contact {
+	padding: 60px 0 0px 0;
+}
+.contact-input input {
+	margin-left: 0px;
+    padding: 8px 0;
+}
+.contact-button{
+     text-align: center;
+     padding:8px 0;
+     margin: 15px 0 30px 0;
+ }
+.social ul li .icon {
+    font-size: 30px;
+}
+/* contact part end */
+/* footer part start */
+address {
+	text-align: center;
+    padding-bottom: 20px;
+}
+#footer{
+    padding: 60px 0 30px 0;
+}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* menu part start */
+    .menu ul li {
+        text-align: center;
+        background-color:#010101;
+    }
+    .menu ul li a {
+        color: #fcdb00 !important;
+    }
+    /* menu part end */
+    /* slider/banner part start */
+    .inspire {
+        margin-top: 20px;
+    }
+    .inspire ul li .icon {
+        font-size: 40px;
+    }
+    .tab img {
+        padding-left: 20px;
+    }
+    /* slider/banner part end */
+     /* Features part start */
+     .features .icon {
+        font-size: 30px;
+    }
+    .icon-content h1 {
+        font-size: 19px;
+    }
+    #Features {
+        padding: 60px 0 20px 0;
+    }
+    .title h1 {
+        font-size: 35px;
+    }
+ /* Features part end */
+ /* contact part start */
+    .social ul li .icon {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    #contact {
+        padding: 60px 0 20px 0;
+    }
+    /* contact part end */
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    ol, ul {
+        padding-left: 0rem !important;
+    }
+}
